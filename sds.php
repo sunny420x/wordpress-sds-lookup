@@ -47,7 +47,7 @@ function worldchem_sds_menu() {
         'manage_options', //สิทธิ์การเข้าถึง (Admin)
         'sds-settings', // Slug ของหน้า
         'sds_setting_page', // ฟังก์ชันที่ใช้พ่น HTML หน้า Setting
-        'dashicons-admin-tools', // ไอคอน
+        'dashicons-search', // ไอคอน
         '80' // ตำแหน่งเมนู
     );
 }
