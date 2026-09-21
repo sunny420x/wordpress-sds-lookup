@@ -117,8 +117,13 @@ function sds_setting_page() {
             display: flex;
             margin: 0 0 0 -20px;
         }
-        .white-label-zone h1,p {
-            padding: 0 20px;
+        .white-label-zone {
+            h1 {
+                padding: 0 20px;
+            }
+            p {
+                padding: 0 20px;
+            }
         }
         .leftside a {
             padding: 10px 20px;
@@ -136,12 +141,15 @@ function sds_setting_page() {
         }
     </style>
     <div class="white-label-zone no-print">
-        <span style="padding: 40px 10px 40px 40px;float: left;font-size: 60px;">📄</span>
+        <img src="<?php echo esc_url( plugin_dir_url( __FILE__ ) . 'plugin-logo.jpg' ); ?>" " alt="Plugin Logo" style="width: 125px; height: auto; float: left; margin: 40px 10px 40px 20px; border-radius: 20px;">
         <div style="padding: 20px 0;">
             <h1>WordPress SDS Document Generator</h1>
-            <p>ระบบสร้างและออกเอกสาร Safety Data Sheet
-            <br>
-            <strong>Github Repository:</strong> <a href="https://github.com/sunny420x/thai-sds-document-generator" target="_blank">https://github.com/sunny420x/thai-sds-document-generator</a>
+            <p>ระบบสร้างและออกเอกสาร Safety Data Sheet</p>
+            <p>
+            <strong>Github Repository:</strong> <a href="https://github.com/sunny420x/thai-sds-document-generator" target="_blank">https://github.com/sunny420x/thai-sds-document-generator</a><br>
+            <!-- <strong>Documentation:</strong> <a href="https://github.com/sunny420x/thai-sds-document-generator/wiki" target="_blank">https://github.com/sunny420x/thai-sds-document-generator/wiki</a><br> -->
+            <strong>Support:</strong> <a href="https://github.com/sunny420x/thai-sds-document-generator/issues" target="_blank">https://github.com/sunny420x/thai-sds-document-generator/issues</a><br>
+            <strong>Developer:</strong> <a href="https://sunny420x.com" target="_blank">https://sunny420x.com</a>
             </p>
         </div>
     </div>
